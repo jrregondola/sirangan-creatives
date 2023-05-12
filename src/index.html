@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Responsive Webpage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet" type="text/css" />
+
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link href="css/swipebox.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="">
+    <nav class="sticky top-0 z-50 bg-primary-bg text-primary-text">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-20 items-center justify-between">
+          <div class="flex items-center mr-6 py-3">
+            <img src="assets/Sirangan Logo.png" class="h-20 w-auto" />
+          </div>
+          <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 border-2 rounded text-card-title border-teal-400 hover:text-white hover:border-white">
+              <svg class="fill-current bg-card-title h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+              </svg>
+            </button>
+          </div>
+          <div class="hidden lg:flex items-center -ms-6">
+            <div class="font-semibold text-base">
+              <a href="#home" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 active:text-card-title"> Home </a>
+              <a href="#services" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"> Services </a>
+              <a href="#portfolio" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"> Portfolio </a>
+              <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"> About </a>
+            </div>
+          </div>
+          <div class="hidden lg:flex">
+            <a href="#contact" class="inline-block text-lg font-medium px-6 py-3 leading-none rounded-lg text-primary-text bg-card-title hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section Goes here -->
+    <div id="#home" class="relative isolate px-6 pt-14 lg:px-8 bg-primary-bg bg-cover bg-center" style="background-image: url('./assets/hero-banner.png')">
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold tracking-tight text-primary-text sm:text-6xl">Sirangan Creatives</h1>
+          <p class="mt-6 text-lg font-bold leading-8 text-secondary-text">Capture moments. Create memories.</p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#contact" class="rounded-md bg-card-title px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary-text text-primary-text">CONTACT US</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section here -->
+    <div id="services" class="relative isolate px-6 pt-7 pb-20 lg:px-8 bg-primary-bg">
+      <div class="mx-auto max-w-7xl">
+        <div class="py-7">
+          <h1 class="text-center text-4xl font-bold tracking-widest uppercase text-card-title">Our Services</h1>
+        </div>
+        <div id="photography-services">
+          <div class="py-4 my-1">
+            <h1 class="text-2xl font-bold uppercase text-primary-text tracking-wide">Photography</h1>
+          </div>
+          <div class="flex items-stretch justify-center lg:justify-around gap-4 lg:gap-x-0 flex-wrap w-full">
+            <!-- First Service -->
+            <div class="flex flex-col shadow-md w-80 h-96 max-w-sm rounded-xl border-secondary-text border border-2 overflow-hidden">
+              <div class="grow text-primary-text px-6 pt-6 pb-16 font-medium">
+                <ul class="flex flex-col gap-y-4">
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>1 Professional Photographer</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Unlimited Shots</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Provision of RAW Photos</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>300 - 500 Soft Copy of Enhanced Photos</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>1 Event Coverage</p>
+                  </li>
+                </ul>
+              </div>
+              <a class="bottom-0 bg-secondary-text text-primary-text text-center hover:bg-card-title transition-all duration-500 text-xl font-bold uppercase py-2">Basic</a>
+            </div>
+            <!-- Second Service -->
+            <div class="flex flex-col shadow-md w-80 h-96 max-w-sm rounded-xl border-secondary-text border border-2 overflow-hidden">
+              <div class="grow text-primary-text px-6 pt-6 pb-16 font-medium">
+                <ul class="flex flex-col gap-y-4">
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>2 Professional Photographer</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Unlimited Shots</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Provision of RAW Photos</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>300 - 500 Soft Copy of Enhanced Photos</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>2 Events Coverage</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Aerial shots</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="bg-secondary-text text-primary-text text-center hover:bg-card-title transition-all duration-500 text-xl font-bold uppercase py-2">Standard</a>
+            </div>
+            <!-- Third Service -->
+            <div class="flex flex-col shadow-md w-80 h-96 max-w-sm rounded-xl border-secondary-text border border-2 overflow-hidden">
+              <div class="grow text-primary-text px-6 pt-6 pb-16 font-medium">
+                <ul class="flex flex-col gap-y-4">
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Inclusions based on your requirement and preferences</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="bg-secondary-text text-primary-text text-center hover:bg-card-title transition-all duration-500 text-xl font-bold uppercase py-2">Custom</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Videography Services Here -->
+        <div id="videography-services" class="mt-10">
+          <div class="py-4 my-1">
+            <h1 class="text-2xl font-bold uppercase text-primary-text tracking-wide">Videography</h1>
+          </div>
+          <div class="flex justify-center lg:justify-around flex-wrap gap-x-4 gap-y-4 w-full">
+            <!-- First Service -->
+            <div class="flex flex-col shadow-md w-80 h-96 rounded-xl border-secondary-text border border-2 overflow-hidden">
+              <div class="grow text-primary-text px-6 pt-6 pb-16 font-medium">
+                <ul class="flex flex-col gap-y-4">
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>2 Professional Videographer</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Unlimited Shots</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Provision of RAW Videos</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>3 - 5 Minutes Event Highlights</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>1 Event Coverage</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="bottom-0 bg-secondary-text text-primary-text text-center hover:bg-card-title transition-all duration-500 text-xl font-bold uppercase py-2">Basic</a>
+            </div>
+            <!-- Second Service -->
+            <div class="flex flex-col shadow-md w-80 h-96 rounded-xl border-secondary-text border border-2 overflow-hidden">
+              <div class="grow text-primary-text px-6 pt-6 pb-16 font-medium">
+                <ul class="flex flex-col gap-y-4">
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>4 Professional Videographer</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Unlimited Shots</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Provision of RAW Photos</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>3 - 5 Minutes Event Highlights</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>2 Events Coverage</p>
+                  </li>
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Aerial shots</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="bg-secondary-text text-primary-text text-center hover:bg-card-title transition-all duration-500 text-xl font-bold uppercase py-2">Standard</a>
+            </div>
+            <!-- Third Service -->
+            <div class="flex flex-col shadow-md w-80 h-96 rounded-xl border-secondary-text border border-2 overflow-hidden">
+              <div class="grow text-primary-text px-6 pt-6 pb-16 font-medium">
+                <ul class="flex flex-col gap-y-4">
+                  <li class="flex items-start gap-x-3 justify-start">
+                    <div>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" rx="12" fill="#CE8653" />
+                        <path d="M7.5 12L10.5 15L16.5 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p>Inclusions based on your requirement and preferences</p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="bg-secondary-text text-primary-text text-center hover:bg-card-title transition-all duration-500 text-xl font-bold uppercase py-2">Custom</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Portfolio section here -->
+    <div id="portfolio" class="relative isolate px-6 pt-7 pb-20 lg:px-8 bg-secondary-bg">
+      <div class="mx-auto max-w-7xl">
+        <div class="py-7">
+          <h1 class="text-center text-4xl font-bold tracking-widest uppercase text-card-title">Our Portfolio</h1>
+        </div>
+        <div id="photography-portfolio">
+          <div class="py-4 my-1">
+            <h1 class="text-2xl font-bold uppercase text-primary-text tracking-wide">Photography</h1>
+          </div>
+          <div>
+            <div class="photo-portfolio"></div>
+          </div>
+        </div>
+
+        <div id="videography-portfolio">
+          <div class="py-4 my-1">
+            <h1 class="text-2xl font-bold uppercase text-primary-text tracking-wide">Videography</h1>
+          </div>
+          <div>
+            <div class="video-portfolio flex xl:justify-between w-full flex-wrap justify-center gap-4">
+              <a rel="gallery-2" class="flex shadow-md h-64 max-w-sm w-full rounded-xl border-secondary-text border border-2 overflow-hidden" href="https://youtu.be/5zLKnmlK85U">
+                <iframe class="w-full" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="W3Schools Free Online Web Tutorials" allowfullscreen></iframe>
+              </a>
+              <a rel="gallery-2" class="flex shadow-md h-64 max-w-sm w-full rounded-xl border-secondary-text border border-2 overflow-hidden" href="https://youtu.be/ATyFg8__y9k">
+                <iframe class="w-full" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="W3Schools Free Online Web Tutorials" allowfullscreen></iframe>
+              </a>
+              <a rel="gallery-2" class="flex shadow-md h-64 max-w-sm w-full rounded-xl border-secondary-text border border-2 overflow-hidden" href="https://youtu.be/5zLKnmlK85U">
+                <iframe class="w-full" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="W3Schools Free Online Web Tutorials" allowfullscreen></iframe>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us Section Here -->
+    <div id="about" class="relative isolate px-6 pt-20 pb-28 lg:px-8 bg-primary-bg">
+      <div class="mx-auto max-w-7xl">
+        <div class="py-7">
+          <h1 class="text-center text-4xl font-bold tracking-widest uppercase text-card-title">About Sirangan Creatives</h1>
+          <h4 class="text-center text-xl font-medium text-secondary-text tracking-widest mt-2">Digital Media Specialist</h4>
+          <p class="text-center text-xl leading-8 font-medium text-primary-text tracking-wide mt-24 mx-auto lg:mx-24">
+            We are passionate about capturing life's special moments through the art of photography and videography. <br /><br />
+            Our team of experienced photographers and videographers delivers stunning visuals that truly capture the essence of each moment. From weddings to corporate events, we tailor our services to meet your unique needs and preferences, ensuring exceptional results and customer satisfaction.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us Section Here -->
+    <div id="contact" class="relative isolate px-6 pt-10 pb-20 lg:px-8 bg-secondary-bg">
+      <div class="mx-auto max-w-7xl">
+        <div class="py-7">
+          <h1 class="text-center text-4xl font-bold tracking-widest uppercase text-card-title">Contact Us</h1>
+          <p class="text-center text-xl leading-8 font-medium text-primary-text tracking-wide mt-2 mx-auto lg:mx-24">We would love to hear from you and help you capture your special moments! To inquire about our availability and pricing, please use the contact form below:</p>
+        </div>
+        <div class="flex flex-col w-full max-w-2xl mx-auto mt-3">
+          <form id="emailForm">
+            <div class="mb-4">
+              <label class="block text-gray-700 text-lg font-medium mb-1 text-primary-text" for="fullname"> Full Name </label>
+              <input required class="appearance-none border-2 border-secondary-text bg-transparent rounded-xl w-full py-3 px-5 text-primary-bg font-medium leading-tight focus:outline-none focus:shadow-outline" id="fullname" type="text" placeholder="Full Name" />
+            </div>
+
+            <div class="mb-4">
+              <label class="block text-gray-700 text-lg font-medium mb-1 text-primary-text" for="email_address"> Email Address </label>
+              <input  required class="appearance-none border-2 border-secondary-text bg-transparent rounded-xl w-full py-3 px-5 text-primary-bg font-medium leading-tight focus:outline-none focus:shadow-outline" id="email_address" type="email" placeholder="Email" />
+            </div>
+
+            <div class="mb-4 w-full flex gap-6">
+              <div class="w-1/2">
+                <label class="block text-gray-700 text-lg font-medium mb-1 text-primary-text" for="type"> Type of Event or Project </label>
+                <input required class="appearance-none border-2 border-secondary-text bg-transparent rounded-xl w-full py-3 px-5 text-primary-bg font-medium leading-tight focus:outline-none focus:shadow-outline" id="type" type="text" placeholder="Enter type of event or project" />
+              </div>
+              <div class="w-1/2">
+                <label class="block text-gray-700 text-lg font-medium mb-1 text-primary-text" for="location"> Location </label>
+                <input required required class="appearance-none border-2 border-secondary-text bg-transparent rounded-xl w-full py-3 px-5 text-primary-bg font-medium leading-tight focus:outline-none focus:shadow-outline" id="location" type="text" placeholder="Enter event of project location" />
+              </div>
+            </div>
+
+            <div class="mb-4 w-full flex gap-6">
+              <div class="w-1/2">
+                <label class="block text-gray-700 text-lg font-medium mb-1 text-primary-text" for="date"> Date </label>
+                <input required class="appearance-none border-2 border-secondary-text bg-transparent rounded-xl w-full py-3 px-5 text-primary-bg font-medium leading-tight focus:outline-none focus:shadow-outline" id="date" type="text" placeholder="Enter event or project date" />
+              </div>
+              <div class="w-1/2">
+                <label class="block text-gray-700 text-lg font-medium mb-1 text-primary-text" for="time"> Time </label>
+                <input required class="appearance-none border-2 border-secondary-text bg-transparent rounded-xl w-full py-3 px-5 text-primary-bg font-medium leading-tight focus:outline-none focus:shadow-outline" id="time" type="text" placeholder="Enter event or project time" />
+              </div>
+            </div>
+
+            <div class="mb-4 w-full">
+              <label class="block text-gray-700 text-lg font-medium mb-1 text-primary-text" for="comment"> Any specific requirements or preferences </label>
+              <textarea rows="4" class="appearance-none border-2 border-secondary-text bg-transparent rounded-xl w-full py-5 px-5 text-primary-bg font-medium leading-tight focus:outline-none focus:shadow-outline" id="comment" placeholder="Enter your message"> </textarea>
+            </div>
+
+            <div class="mt-12 mb-4 mx-auto">
+              <button id="form_submit" type="submit" class="uppercase bg-card-title px-14 py-3 rounded-full font-semibold text-primary-text text-xl">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer container -->
+    <footer class="bg-primary-bg pt-8 text-center text-primary-text">
+      <!--Copyright section-->
+      <div class="flex py-6 mx-auto w-full justify-center gap-3">
+        <a href="https://www.facebook.com/sirangan.creatives/" id="fb-btn">
+          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M19.5444 17.9839L20.0099 15.1089H17.0509V13.2339C17.0509 12.4214 17.4499 11.6714 18.7797 11.6714H20.1429V9.20264C20.1429 9.20264 18.9127 8.98389 17.7491 8.98389C15.3221 8.98389 13.7262 10.3901 13.7262 12.8901V15.1089H11V17.9839H13.7262V24.9839H17.0509V17.9839H19.5444Z"
+              fill="white" />
+            <rect x="0.5" y="1.48389" width="31" height="31" rx="9.5" stroke="white" />
+          </svg>
+        </a>
+        <a id="phone-btn">
+          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8 10C8 9.73478 8.10536 9.48043 8.29289 9.29289C8.48043 9.10536 8.73478 9 9 9H11.153C11.3897 9.00011 11.6187 9.08418 11.7992 9.23726C11.9798 9.39034 12.1002 9.6025 12.139 9.836L12.879 14.271C12.9144 14.4822 12.881 14.6992 12.7838 14.89C12.6866 15.0809 12.5306 15.2354 12.339 15.331L10.791 16.104C11.3461 17.4797 12.1728 18.7293 13.2218 19.7782C14.2707 20.8272 15.5203 21.6539 16.896 22.209L17.67 20.661C17.7655 20.4695 17.9199 20.3138 18.1106 20.2166C18.3012 20.1194 18.5179 20.0859 18.729 20.121L23.164 20.861C23.3975 20.8998 23.6097 21.0202 23.7627 21.2008C23.9158 21.3813 23.9999 21.6103 24 21.847V24C24 24.2652 23.8946 24.5196 23.7071 24.7071C23.5196 24.8946 23.2652 25 23 25H21C13.82 25 8 19.18 8 12V10Z"
+              fill="white" />
+            <rect x="0.5" y="1.48389" width="31" height="31" rx="9.5" stroke="white" />
+          </svg>
+        </a>
+        <a href="" id="messenger-btn">
+          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="1.48389" width="31" height="31" rx="9.5" stroke="white" />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M24 17C24 20.866 20.418 24 16 24C14.58 24.006 13.1796 23.6698 11.917 23.02L8 24L9.338 20.877C8.493 19.767 8 18.434 8 17C8 13.134 11.582 10 16 10C20.418 10 24 13.134 24 17ZM13 16H11V18H13V16ZM21 16H19V18H21V16ZM15 16H17V18H15V16Z"
+              fill="white" />
+          </svg>
+        </a>
+        <a id="mail-btn">
+          <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="1.48389" width="31" height="31" rx="9.5" stroke="white" />
+            <path d="M8.00293 12.884L15.9999 16.882L23.9969 12.884C23.9673 12.3744 23.744 11.8955 23.3728 11.5452C23.0015 11.195 22.5103 10.9999 21.9999 11H9.99993C9.48951 10.9999 8.99838 11.195 8.62711 11.5452C8.25584 11.8955 8.03253 12.3744 8.00293 12.884Z" fill="white" />
+            <path d="M24 15.1182L16 19.1182L8 15.1182V21.0002C8 21.5306 8.21071 22.0393 8.58579 22.4144C8.96086 22.7895 9.46957 23.0002 10 23.0002H22C22.5304 23.0002 23.0391 22.7895 23.4142 22.4144C23.7893 22.0393 24 21.5306 24 21.0002V15.1182Z" fill="white" />
+          </svg>
+        </a>
+      </div>
+      <div class="font-medium text-secondary-text text-lg tracking-wide" id="phone-info" hidden>+63 906 368 7378</div>
+      <div class="font-medium text-secondary-text text-lg tracking-wide" id="mail-info" hidden>sirangan.creatives@gmail.com</div>
+      <div class="pb-8 pt-5">Copyright © 2023 by Sirangan Creatives, All rights reserved.</div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript" src="js/mail.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
