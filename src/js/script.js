@@ -2,7 +2,6 @@ $(document).ready(function () {
   // Add photos
 
   photos = [
-    "assets/portfolio-photos/FAITH-202.jpg",
     "assets/portfolio-photos/FAITH-234.jpg",
     "assets/portfolio-photos/FAITH-253.jpg",
     "assets/portfolio-photos/HERA@2-118.jpg",
@@ -24,7 +23,7 @@ $(document).ready(function () {
     "assets/portfolio-photos/CHEAN_GIOVANI-67.jpg",
     "assets/portfolio-photos/CHEAN_GIOVANI-121.jpg",
   ];
-
+  photos = photos.sort(function(a, b){return 0.5 - Math.random()});
   for (photo of photos) {
     div = `
       <a rel="gallery-1" class="flex shadow-md h-64 max-w-sm rounded-xl border-secondary-text border border-2 overflow-hidden swipebox" href=${photo}>
